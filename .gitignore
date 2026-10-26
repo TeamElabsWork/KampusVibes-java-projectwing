@@ -1,0 +1,109 @@
+# Java / Maven / Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+spring-shell.log
+HELP.md
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+
+# Maven local repo cache (never commit)
+.m2/
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+
+# Application secrets and local environment config
+*.env
+.env
+.env.*
+application-local.properties
+application-local.yml
+application-secrets.properties
+application-secrets.yml
+**/src/main/resources/application-local.*
+**/src/main/resources/application-secrets.*
+
+# IDE – IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE – Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+# IDE – VS Code
+.vscode/
+.factorypath
+
+# IDE – NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Frontend – Node.js and package managers (for future tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.yarn/
+.pnp.*
+
+# Frontend – build output (for future tooling)
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+
+# Frontend – environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test and coverage reports
+**/target/surefire-reports/
+**/target/failsafe-reports/
+coverage/
+*.lcov
+.nyc_output/
+
+# Docker (when added later – do not ignore Dockerfile or compose files themselves)
+.docker/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
